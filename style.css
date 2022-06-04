@@ -112,11 +112,11 @@ footer{
     padding: 12px 30px;
     color: white;
     background-color: transparent;
-    border: 4px solid white;
+    border: 2px solid white;
     border-radius: 2rem;
     text-transform: uppercase;
     letter-spacing: .10rem;
-    margin-bottom: 200px; // mexer
+    margin-bottom: 300px; // mexer
 }
 
 
@@ -159,7 +159,7 @@ footer{
 }
 
 #presentation h3 {
-    margin-bottom: -400px;
+    margin-bottom: -450px;
     margin-right: 200px;
     display: block;
     width: fit-content;
