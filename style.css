@@ -90,22 +90,20 @@ footer{
 
 
 #nome{
-    display: inline-block;
+    display: flex;
     text-align: center;
-    margin-bottom: 300px;
-
+    margin-bottom: 190px;
+    position: relative;
+    justify-content: center;
+    left: 120px;
 }
 
 #sobre{
     display: flex;
-    text-align: center;
-    margin-bottom: 200px;
+    text-align: left;
+    margin-top: 200px;
 }
 
-#presentation .git1 {
-    
-    
-}
 
 #presentation .cta {
     display: inline-block;
@@ -133,15 +131,19 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 
 #presentation {
-    background-image: url(imagens/bg.jpg);
+    background-image: url(imagens/bg2.jpg);
     background-size: cover;
     background-image: top center;
     position: relative;
     z-index: 1;
+    text-align: center;
+    position: relative;
+    height: 92vh;
 }
 
 #presentation a{
@@ -163,7 +165,7 @@ footer{
     margin-right: 200px;
     display: block;
     width: fit-content;
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: relative;
     color: transparent;
     animation: text_reveal .5s ease forwards;
@@ -183,17 +185,7 @@ footer{
     margin-right: -103px;
 }
 
-/*#presentation p {
-    display: flex;
-   // width: fit-content;
-    font-size: 13px;
-    position: relative;
-    color: transparent;
-    animation: text_reveal .5s ease forwards;
-    animation-delay: 3.5s;
-    margin-top: 300px;
-    margin-right: 400px;
-}*/
+
 
 #presentation p > a {
     text-decoration: none;
@@ -209,7 +201,7 @@ footer{
     height: 100%;
     width: 100%;
     animation: text_reveal_box 1s ease;
-    animation-delay: .5s;
+    animation-delay: .2s;
 }
 
 #presentation::after {
@@ -360,3 +352,30 @@ footer{
 
 
 }
+
+a{
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(2, 2, 2);
+    height: 8vh;
+    
+    
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+
